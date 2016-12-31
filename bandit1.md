@@ -14,6 +14,7 @@ Google Search for “dashed filename”
 Advanced Bash-scripting Guide - Chapter 3 - Special Characters
 
 #Code Input
+open shell and login to server:
 >$ ssh bandit1@bandit.labs.overthewire.org.
 
 type password from bandit0: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
