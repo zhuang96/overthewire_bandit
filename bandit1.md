@@ -12,3 +12,15 @@ ls, cd, cat, file, du, find
 
 Google Search for “dashed filename”
 Advanced Bash-scripting Guide - Chapter 3 - Special Characters
+
+#Code Input
+>$ ssh bandit1@bandit.labs.overthewire.org.
+
+type password from bandit0: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+if you type in 'ls' and you will see file "-"
+
+in order to view this dashed filename, you must type:
+>$ cat ./-
+
+password to next level: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
