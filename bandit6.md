@@ -12,7 +12,7 @@ ls, cd, cat, file, du, find, grep
 Open shell and login to server:
 >$ ssh bandit6@bandit.labs.overthewire.org.
 
-Type password from bandit1: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+Type password from bandit5: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 Since there are no subdirectories to enter, let's find the file that is owned by user bandit7, group bandit6 and is 33 bytes in size
 >find / -user bandit7 -group bandit6 -size 33c
