@@ -12,7 +12,7 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 Open shell and login to server:
 >$ ssh bandit7@bandit.labs.overthewire.org.
 
-Type password from bandit1: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+Type password from bandit6: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 >$ ls
 
