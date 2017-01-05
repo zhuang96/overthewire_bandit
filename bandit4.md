@@ -12,7 +12,7 @@ ls, cd, cat, file, du, find
 Open shell and login to server:
 >$ ssh bandit4@bandit.labs.overthewire.org.
 
-Type password from bandit1: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+Type password from bandit3: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 If you type in 'ls' and you will see file "inhere"; type 'cd' to go into the directory:
 >$ cd inhere
