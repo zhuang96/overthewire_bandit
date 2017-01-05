@@ -12,7 +12,7 @@ ls, cd, cat, file, du, find
 Open shell and login to server:
 >$ ssh bandit5@bandit.labs.overthewire.org.
 
-Type password from bandit1: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+Type password from bandit4: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
 >$ls 
 
