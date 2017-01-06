@@ -16,8 +16,21 @@ SSH/OpenSSH/Keys
 Open shell and login to server:
 >$ ssh bandit13@bandit.labs.overthewire.org.
 
-Type password from bandit11: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+Type password from bandit12: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
 >$ ls
 
-> data.txt
+> sshkey.private
+
+For this level, we want to use ssh to connect as a localhost to the bandit14 server without a password. 
+>$ ssh bandit14@localhost -i ~/sshkey.private
+
+>Are you sure you want to continue connecting (yes/no)? yes
+
+>$ cat /etc/bandit_pass/bandit14
+
+>4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+password to next level: 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+*note: We connect as a local host because we are already logged into the server through bandit13. Typing '-i' allows us to connect to the server without a password*
