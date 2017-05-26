@@ -6,22 +6,19 @@ To gain access to the next level, you should use the setuid binary in the homedi
 
 #Code Input
 Open shell and login to server (you need to connect to port 2220 instead of 22):
->$ ssh bandit18@bandit.labs.overthewire.org -p 2220 
+>$ ssh bandit19@bandit.labs.overthewire.org -p 2220 
 
 Type password from bandit18: 
-
-You'll automatically get logged out because once you run ssh it will read .bashrc which is modified to log you out. What you want to do is to login without having .bashrc being run. 
->$ ssh -t bandit18@bandit.labs.overthewire.org /bin/sh
-
-Logging in with 'ssh -t' will create a remote "temporary" ssh connection. "/bin/sh" will run a bash shell (instead of the regular shell) which does not read .bashrc
-
-Enter the password again and read the readme file:
->$ ls
-
->readme
-
->$ cat readme
-
 >IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 
-Password to the next level: IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+After typing 'ls', we see that there is a locked directory (bandit20-do). Using the command line ls -l, we can figure out what type of owner of the file: 
+>$ ls -l 
+
+We get:
+total 8
+-rwsr-x--- 1 bandit20 bandit19 7370 Nov 14  2014 bandit20-do
+
+To get the password, type in:
+>$ ./bandit20-do cat /etc/bandit_pass/bandit20
+
+Password to the next level: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
